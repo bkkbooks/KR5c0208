@@ -1,0 +1,39 @@
+canonical_identifier: bkk:krp/KR5c0208/ZTDZ/v1
+canonical_location: https://kanripo.org/bkk/KR5c0208/ZTDZ/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 太上金櫃玉鏡延生洞玄燭幽懺
+  date: '2015-08-29 00:54:26.055516'
+  source:
+    repository: kanripo
+    path: KR5c0208
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+  edition:
+    short: ZTDZ
+    label: 【正統道藏・三家本】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5c0208_000-ZTDZ.yaml, hash: 'sha256:95e2c94574f62dc938d4e677692849ba9e3929538ab86775b38e0a7e638a3609'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5c0208_000-ZTDZ.markers.yaml, hash: 'sha256:02afbf6b2d194e9a7bb644f797cf5ce3353dab42ae0e84623ee32081de63933c'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5c0208_SJB_000-180341b
+    span:
+    - body
+    - 0
+    - 3188
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:10cecd19abd95b85d06690e490e02c7e1a177a47a503890a7a9243ee3b126b82
